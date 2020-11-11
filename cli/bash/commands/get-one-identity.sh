@@ -160,7 +160,7 @@ if [ ! -z "$FCC_PORT" ]; then
     QUERY="$QUERY&port=$FCC_PORT"
 fi
 
-if [[ $FSS = "true" ]]
+if [ $FSS = "true" ];
 then
     setup_fss
 fi
